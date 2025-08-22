@@ -2,7 +2,8 @@ const axios = require("axios");
 
 const TARGET_URLS = [
   "https://bajarangi.onrender.com/api/food/list",
-  "https://feel-alive.onrender.com/listings"
+  "https://feel-alive.onrender.com/listings",
+  "https://perumall.onrender.com/api/food/list"
 ];
 
 async function ping(url) {
